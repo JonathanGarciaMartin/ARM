@@ -1,0 +1,12 @@
+.text-justify {
+    text-align: justify;
+}
+.titulo1 {
+    font-size: 36px;
+    text-shadow: 8px 12px 12px ;
+}
+.logo {
+    background: linear-gradient(90deg, rgba(29,162,253,1) 0%, rgba(140,255,251,1) 50%, rgba(29,162,253,1) 100%);
+    box-shadow: 2px 0px 20px #2a9be1;
+
+}
