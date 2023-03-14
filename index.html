@@ -1,132 +1,171 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-        <!--Bootstrap-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+    <!--Bootstrap-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
     <!--CSS personalizado-->
-    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/estilo.css" />
     <!--Fuentes de texto-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Assistant&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Assistant&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--Barra de navegación-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"> <img src="rayo.png" alt="" width="40" > </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="#">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Productos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Ofertas</a>
-              </li>
-            </ul>
+      <div class="navegación container-fluid">
+        <a class="navbar-brand" href="#">
+          <img class="logo"
+          src="LOGO DIGITAL.PNG"
+          alt="ARM reparaciones elctrodentales"
+          width="120"/>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Ofertas</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--Página principal-->
+    <div class="contenedor-1 container my-3">
+      <p class="titulo1">
+        <img
+          src="rayo.png"
+          alt="ARM reparaciones elctrodentales"
+          width="80"
+        /><span class="titulogrande">
+          Reparaciones Electrodentales y Podol&oacute;gicas.</span
+        >
+      </p>
+      <p class="text-justify">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores
+        cupiditate reprehenderit tempora quis nihil ipsa fuga rem. Corporis,
+        provident nobis veritatis eaque omnis architecto repellendus obcaecati
+        repudiandae, harum facilis quo.
+      </p>
+      <p>
+        <a class="btn btn-primary btn-lg" role="button" href="#"
+          >Leer m&aacute;s</a
+        >
+      </p>
+    </div>
+    <!--Productos-->
+    <div class="contenedor-2 row text-center align-items-center">
+      <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 mb-3 ml-3">
+        <div class="card shadow">
+          <div class="card-body">
+            <h5 class="card-title">Producto 0</h5>
+            <p class="card-text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere
+              illo quasi minus officia, fugit ipsum? Cumque incidunt tempore
+              ratione velit.
+            </p>
+            <a class="btn btn-info" href="#">Más</a>
           </div>
         </div>
-      </nav>
-    <div class="contenedor-1 container my-3">
-        <p class="titulo1"><img class="logo" src="logo ajustado.png" alt="ARM reparaciones elctrodentales" width="200"/><span class="titulogrande"> Reparaciones Electrodentales y Podol&oacute;gicas.</span></p>
-        <!--<h1 class="display-3">Hola Dario</h1>-->
-        <p class="text-justify">
-            Lorem ipsum dolor sit amet consectetur, 
-            adipisicing elit. Maiores cupiditate reprehenderit 
-            tempora quis nihil ipsa fuga rem. Corporis, provident 
-            nobis veritatis eaque omnis architecto repellendus obcaecati 
-            repudiandae, harum facilis quo.
-        </p>
-        <p  >
-            <a class="btn btn-primary btn-lg" role="button" href="#">Leer m&aacute;s</a>
-        </p>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 mb-3">
+        <div class="card shadow">
+          <div class="card-body">
+            <h5 class="card-title">Producto 1</h5>
+            <p class="card-text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere
+              illo quasi minus officia, fugit ipsum? Cumque incidunt tempore
+              ratione velit.
+            </p>
+            <a class="btn btn-info" href="#">Más</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 mb-3">
+        <div class="card shadow">
+          <div class="card-body">
+            <h5 class="card-title">Producto 2</h5>
+            <p class="card-text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere
+              illo quasi minus officia, fugit ipsum? Cumque incidunt tempore
+              ratione velit.
+            </p>
+            <a class="btn btn-info" href="#">Más</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 mb-3">
+        <div class="card shadow">
+          <div class="card-body">
+            <h5 class="card-title">Producto 2</h5>
+            <p class="card-text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere
+              illo quasi minus officia, fugit ipsum? Cumque incidunt tempore
+              ratione velit.
+            </p>
+            <a class="btn btn-info" href="#">Más</a>
+          </div>
+        </div>
+      </div>
     </div>
-    
-    <div class="contenedor-2 row text-center align-items-center">
-        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 mb-3 ml-3" >
-            <div class="card shadow">
-                <div class="card-body">
-                    <h5 class="card-title">Producto 0</h5>
-                    <p class="card-text">Lorem ipsum dolor, 
-                        sit amet consectetur adipisicing elit. 
-                        Facere illo quasi minus officia, fugit ipsum? 
-                        Cumque incidunt tempore ratione velit.
-                    </p>
-                    <a class="btn btn-info" href="#">Más</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 mb-3" >
-            <div class="card shadow">
-                <div class="card-body">
-                    <h5 class="card-title">Producto 1</h5>
-                    <p class="card-text">Lorem ipsum dolor, 
-                        sit amet consectetur adipisicing elit. 
-                        Facere illo quasi minus officia, fugit ipsum? 
-                        Cumque incidunt tempore ratione velit.
-                    </p>
-                <a class="btn btn-info" href="#">Más</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 mb-3" >
-            <div class="card shadow">
-                <div class="card-body">
-                    <h5 class="card-title">Producto 2</h5>
-                    <p class="card-text">Lorem ipsum dolor, 
-                        sit amet consectetur adipisicing elit. 
-                        Facere illo quasi minus officia, fugit ipsum? 
-                        Cumque incidunt tempore ratione velit.
-                    </p>
-                    <a class="btn btn-info" href="#">Más</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 mb-3" >
-            <div class="card shadow">
-                <div class="card-body">
-                    <h5 class="card-title">Producto 2</h5>
-                    <p class="card-text">Lorem ipsum dolor, 
-                        sit amet consectetur adipisicing elit. 
-                        Facere illo quasi minus officia, fugit ipsum? 
-                        Cumque incidunt tempore ratione velit.
-                    </p>
-                    <a class="btn btn-info" href="#">Más</a>
-                </div>
-            </div>
-        </div>
-        
-        <div class="row align-items-center" >
-            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6" >
-                <img src="img/taza.png.jpg" class="img-fluid taza" alt="tarjeta Aitor" width="400"/>
-            </div>
+    <!--Página conócenos-->
+    <div class="row align-items-center">
+      <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+        <img
+          src="img/taza.png.jpg"
+          class="img-fluid taza"
+          alt="tarjeta Aitor"
+          width="400"
+        />
+      </div>
 
-            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6" >
-                <h1 class="display-3 text-center">¡Ven a conocernos!</h1>
-                <p class="text-justify">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                    Iste quos porro ea dolorum ipsum ducimus sit debitis blanditiis, 
-                    dignissimos, quia vero voluptatum reiciendis itaque cum nobis exercitationem. 
-                    Aliquam, ipsam accusamus!
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel iure fugiat ad 
-                    explicabo beatae amet omnis pariatur rem ea debitis architecto ducimus, quas 
-                    aut neque magni laboriosam saepe necessitatibus accusantium!
-                    
-                </p>
-            </div>
-        </div>
+      <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+        <h1 class="display-3 text-center">¡Ven a conocernos!</h1>
+        <p class="text-justify">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste quos
+          porro ea dolorum ipsum ducimus sit debitis blanditiis, dignissimos,
+          quia vero voluptatum reiciendis itaque cum nobis exercitationem.
+          Aliquam, ipsam accusamus! Lorem, ipsum dolor sit amet consectetur
+          adipisicing elit. Vel iure fugiat ad explicabo beatae amet omnis
+          pariatur rem ea debitis architecto ducimus, quas aut neque magni
+          laboriosam saepe necessitatibus accusantium!
+        </p>
+      </div>
     </div>
-    
+
     <!--Bootstrap-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

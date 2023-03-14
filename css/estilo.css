@@ -1,17 +1,19 @@
 /* Fuentes de textos */
 *{
     font-family: 'Assistant', sans-serif;
+   
+}
+/* Barra de navegación */
+.nav-link{
+    font-weight: 600;
 }
 /* Página principal */
 body{
     font-size: 16px;
     background: rgba(29, 163, 253, 0.422);
     background: linear-gradient(90deg, rgba(29,162,253,0.422) 0%, rgba(140,255,251,0.422) 50%, rgba(29,162,253,0.422) 100%);
-}
-@media(max-width: 576px){
-    .card-text {
-        font-size: 0.8rem;
-    }
+    padding-left: 4%;
+    padding-right: 4%;
 }
 .text-justify {
     text-align: justify;
@@ -21,15 +23,25 @@ body{
     text-shadow: 6px 6px 6px ;
 }
 .logo {
-    background: linear-gradient(90deg, rgba(29,162,253,1) 0%, rgba(140,255,251,1) 50%, rgba(29,162,253,1) 100%);
+    
     box-shadow: 2px 0px 20px #2a9be1;
 }
-.taza{
-    border-radius: 15px;
+.titulogrande{
+    padding-left: 10%;
+}
+/* Página productos */
+@media(max-width: 576px){
+    .card-text {
+        font-size: 0.8rem;
+    }
+}
+.contenedor-2{
+    
 }
 .card:hover{
     opacity: 0.8;
 }
-.titulogrande{
-    padding-left: 10%;
+/* Página conócenos */
+.taza{
+    border-radius: 15px;
 }
